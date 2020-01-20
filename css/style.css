@@ -13,17 +13,18 @@ input[type='checkbox']{cursor: pointer;}
 
 .inner{max-width: 1170px; width: 94%; margin: 0 auto; position: relative;}
 #header{position: relative; height: 115px;}
-.header__info{display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 2px solid #8b8b8b;}
+.header__info{display: flex; justify-content: space-between; padding: 10px 0 5px; border-bottom: 1px solid #8b8b8b;}
 .header__info-item{display: flex; flex-direction: column; justify-content: center;}
 .header__logo{display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; max-width: 200px; max-height: 150px;}
 .header__logo img{width: 100%; height: 100%; object-fit: contain;}
 .content{display: flex; flex-direction: column; justify-content: space-between; height: calc(100vh - 115px); position: relative;}
 .mob-link:before{content: '\f879'; display: inline-block; margin-right: 5px; font-weight: bold; font-family: "Font Awesome 5 Free";}
 
-.menu{display: flex; justify-content: space-between;}
-.menu-item{position: relative;}
+.menu{display: flex; justify-content: space-between; padding: 5px 0 10px; border-bottom: 1px solid #8b8b8b;}
+.menu-item{position: relative; width: 14%;}
 .menu-title{cursor: pointer;}
-.menu-hidden-list{position: absolute; width: 100%; background-color: #fff; left: 0; top: 100%;}
+.menu-hidden-list{position: absolute; width: 100%; background-color: #fff; left: 0; top: 100%; z-index: 2;}
+.menu-hidden-list-item{display: block; box-sizing: border-box; padding: 5px 0;}
 
 #footer{position: relative;}
 
