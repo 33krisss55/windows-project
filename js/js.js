@@ -5,6 +5,11 @@ $('.menu-title').on('click', function() {
 
 $('.detail').on('click', function() {
     $(this).next('.catalog__slide-describe-hidden').toggleClass('is-active');
+    $('.overlay').toggleClass('is-active');
+});
+$('.fas.fa-times').on('click', function() {
+    $('.catalog__slide-describe-hidden').removeClass('is-active');
+    $('.overlay').removeClass('is-active');
 });
 
 $('.catalog').owlCarousel({
