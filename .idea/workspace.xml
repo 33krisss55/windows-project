@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b5c83f2-5fd5-4057-a334-92efd6b54945" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/partners/img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/partners/img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/partners/img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/partners/img3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/partners/img4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/partners/img4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/partners/img5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/partners/img6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/partners/img7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/windows.html" beforeDir="false" afterPath="$PROJECT_DIR$/windows.html" afterDir="false" />
-    </list>
+    <list default="true" id="8b5c83f2-5fd5-4057-a334-92efd6b54945" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,12 +171,12 @@
       <updated>1579515651418</updated>
       <workItem from="1579515652935" duration="11007000" />
       <workItem from="1579588426640" duration="6696000" />
-      <workItem from="1579676535019" duration="12727000" />
+      <workItem from="1579676535019" duration="13379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30430000" />
+    <option name="totallyTimeSpent" value="31082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="434" y="113" width="1470" height="776" extended-state="0" />
