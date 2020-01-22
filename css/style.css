@@ -85,9 +85,9 @@ table{border-spacing: 0; border-collapse: collapse;}
 
 .main__partners{position: relative; margin: 80px 0;}
 .partners{display: flex; justify-content: center; margin-top: 20px;}
-.partners__item{width: 33%; height: 60px; margin: 0 10px 10px;}
+.partners__item{width: 20%; height: 110px; margin: 0 10px 10px;}
 .partners__item a{width: 100%; height: 100%; display: block;}
-.partners__item a img{width: 100%; height: 100%; object-fit: cover;}
+.partners__item a img{width: 100%; height: 100%; object-fit: contain;}
 
 #footer{position: relative; background-color: #0070b8; padding: 20px 0; color: #fff;}
 .footer-list{display: flex; justify-content: space-between;}
@@ -113,6 +113,7 @@ table{border-spacing: 0; border-collapse: collapse;}
 
 .banner .owl-next{right: 20px;}
 .banner .owl-prev{left: 20px;}
+.banner .owl-prev, .owl-next{top: 50%; margin-top: -24px;}
 
 /*Каталог */
 .catalog__block{padding: 50px 0; position: relative;}
