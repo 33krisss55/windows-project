@@ -29,6 +29,8 @@ table{border-spacing: 0; border-collapse: collapse;}
 .content{display: flex; flex-direction: column; justify-content: space-between; position: relative; min-height: calc(100vh - 128px);}
 #header .mob-link{font-size: 21px; line-height: 24px; font-weight: 500;}
 #header .mob-link + .mob-link{letter-spacing: 0.7px;}
+.header__shedule-mob{display: flex; align-items: center;}
+.header__shedule-mob .header__shedule{margin-right: 10px; margin-top: 0;}
 /*.mob-link:before{content: '\f879'; display: inline-block; margin-right: 5px; font-weight: bold; font-family: "Font Awesome 5 Free";}*/
 
 .nav-menu{background-color: #f4f4f4; border-bottom: 1px solid #d8d8d8; border-top: 1px solid #d8d8d8;}
@@ -47,14 +49,13 @@ table{border-spacing: 0; border-collapse: collapse;}
 
 .main-banner{position: relative;}
 .banner{position: relative;}
-.banner__slide{position: relative; height: 450px; width: 100%;}
-.banner__slide img{width: 100%; height: 100%; object-fit: cover;}
-
-.main__logo{position: relative; margin: 50px 0;}
-.main__logo-block{display: flex; justify-content: center; align-items: center;}
-.main__logo-image{width: 130px; height: 130px; margin-right: 10px;}
-.main__logo-image img{width: 100%; height: 100%; object-fit: contain;}
-.main__logo-text{font-size: 30px; line-height: 33px;}
+.banner .inner{height: 100%;}
+.banner__slide{position: relative; height: 450px; width: 100%; background: linear-gradient(to right, transparent 0, #fff 100%);}
+.banner__slide img{width: 100%; height: 100%; object-fit: cover; position: absolute; left: 0; top: 0; z-index: -1;}
+.banner__content{display: flex; align-items: center; justify-content: flex-end; color: #0d5380; height: 100%; position: relative; z-index: 1;}
+.banner-image{width: 110px; height: 110px; margin-right: 10px; position: relative; margin-left: 20px;}
+.banner-image img{width: 100%; height: 100%; object-fit: contain;}
+.banner-text{font-size: 30px; line-height: 33px; width: 40%; text-align: right; font-weight: 500;}
 
 .detail{display: block; cursor: pointer; text-align: center; width: 100%; border-radius: 3px; background-color: #0070b8; color: #fff; transition: 0.2s ease; box-sizing: border-box; padding: 8px 5px; margin-top: 10px;}
 .detail:hover{background-color: #0d5380;}
