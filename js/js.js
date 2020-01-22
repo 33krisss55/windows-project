@@ -38,3 +38,12 @@ $('.catalog').owlCarousel({
         }
     }
 });
+
+$('.banner').owlCarousel({
+    loop:true,
+    items: 1,
+    margin:0,
+    nav:true,
+    navText:false,
+    dots:true
+});
