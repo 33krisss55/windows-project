@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8b5c83f2-5fd5-4057-a334-92efd6b54945" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/windows.html" beforeDir="false" afterPath="$PROJECT_DIR$/windows.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/windows.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="18" column="69" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="69" />
+            <state relative-caret-position="243">
+              <caret line="312" column="30" lean-forward="true" selection-start-line="312" selection-start-column="30" selection-end-line="312" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -50,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="24" column="79" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
+            <state relative-caret-position="195">
+              <caret line="79" column="59" selection-start-line="79" selection-start-column="59" selection-end-line="79" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -84,6 +83,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>catalog__slide-price</find>
+    </findStrings>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -102,8 +106,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="229" />
-    <option name="y" value="34" />
+    <option name="x" value="247" />
+    <option name="y" value="102" />
     <option name="width" value="1470" />
     <option name="height" value="776" />
   </component>
@@ -170,15 +174,15 @@
       <updated>1579515651418</updated>
       <workItem from="1579515652935" duration="11007000" />
       <workItem from="1579588426640" duration="6696000" />
-      <workItem from="1579676535019" duration="7041000" />
+      <workItem from="1579676535019" duration="8032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24744000" />
+    <option name="totallyTimeSpent" value="25735000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="229" y="34" width="1470" height="776" extended-state="0" />
+    <frame x="247" y="102" width="1470" height="776" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.048022598" />
@@ -195,7 +199,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.14596273" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29503107" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -290,15 +294,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/windows.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="18" column="69" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="69" />
+        <state relative-caret-position="243">
+          <caret line="312" column="30" lean-forward="true" selection-start-line="312" selection-start-column="30" selection-end-line="312" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="24" column="79" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
+        <state relative-caret-position="195">
+          <caret line="79" column="59" selection-start-line="79" selection-start-column="59" selection-end-line="79" selection-end-column="59" />
         </state>
       </provider>
     </entry>
