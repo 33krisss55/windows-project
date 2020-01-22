@@ -19,14 +19,16 @@ table{border-spacing: 0; border-collapse: collapse;}
 #header{position: relative;}
 .header__info{display: flex; justify-content: space-between; padding: 10px 0;}
 .header__info-item{display: flex;justify-content: center;}
-.header__info-item_logo-adress{align-items: center;}
+.header__info-item_logo{align-items: center;}
 .header__info-item_contacts{flex-direction: column; justify-content: center; text-align: right;}
 .header__info-item .mob-link + .mob-link{margin-top: 5px;}
-.header__info-item .header__shedule{margin-top: 5px;}
+.header__info-item .header__shedule{margin-top: 5px; font-size: 12px; line-height: 15px;}
 .header__adress{margin-left: 30px;}
-.header__logo{display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; max-width: 150px; max-height: 150px;}
+.header__logo{display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; max-width: 180px; max-height: 200px;}
+.header__logo + .header__logo{margin-left: 50px; max-width: 300px;}
 .header__logo img{width: 100%; height: 100%; object-fit: contain;}
 .content{display: flex; flex-direction: column; justify-content: space-between; position: relative; min-height: calc(100vh - 128px);}
+#header .mob-link{font-size: 21px; line-height: 24px; font-weight: 500;}
 /*.mob-link:before{content: '\f879'; display: inline-block; margin-right: 5px; font-weight: bold; font-family: "Font Awesome 5 Free";}*/
 
 .nav-menu{background-color: #f4f4f4; border-bottom: 1px solid #d8d8d8; border-top: 1px solid #d8d8d8;}
@@ -74,9 +76,12 @@ table{border-spacing: 0; border-collapse: collapse;}
 #footer{position: relative; background-color: #0070b8; padding: 20px 0; color: #fff;}
 .footer-list{display: flex; justify-content: space-between;}
 .footer-list-item{display: flex; flex-direction: column;}
+.footer-list-item:first-child{width: 30%;}
+.footer-list-item:last-child{width: 30%; text-align: right;}
 .footer-list-item .header__shedule + .header__shedule, .mob-link + .mob-link{margin-top: 5px;}
 .footer-list-item .mob-link{color: #fff;}
 .footer-list-item .mob-link:hover{color: #f2712d;}
+
 
 .owl-carousel{position:relative;}
 .owl-stage-outer{position:relative; overflow:hidden;}
