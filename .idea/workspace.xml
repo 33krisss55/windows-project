@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5c83f2-5fd5-4057-a334-92efd6b54945" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/windows.html" beforeDir="false" afterPath="$PROJECT_DIR$/windows.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,20 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/windows.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="356" column="59" selection-start-line="356" selection-start-column="59" selection-end-line="356" selection-end-column="59" />
+            <state relative-caret-position="485">
+              <caret line="357" column="38" selection-start-line="357" selection-start-column="38" selection-end-line="357" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="154" selection-start-line="154" selection-end-line="154" />
+            <state relative-caret-position="201">
+              <caret line="56" column="127" selection-start-line="56" selection-start-column="127" selection-end-line="56" selection-end-column="127" />
             </state>
           </provider>
         </entry>
@@ -108,6 +109,7 @@
       <find>header__info-item_logo</find>
       <find>footer-list</find>
       <find>catalog__slide-image</find>
+      <find>&lt;i class=&quot;far fa-copyright&quot;&gt;&lt;/i&gt;</find>
       <find>.catalog__slide-image</find>
     </findStrings>
   </component>
@@ -128,14 +130,14 @@
         <option value="$PROJECT_DIR$/css/colors.css" />
         <option value="$PROJECT_DIR$/js/js.js" />
         <option value="$PROJECT_DIR$/contacts.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/windows.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="123" />
-    <option name="y" value="65" />
+    <option name="x" value="29" />
+    <option name="y" value="124" />
     <option name="width" value="1231" />
     <option name="height" value="920" />
   </component>
@@ -203,15 +205,15 @@
       <workItem from="1579515652935" duration="11007000" />
       <workItem from="1579588426640" duration="6696000" />
       <workItem from="1579676535019" duration="13415000" />
-      <workItem from="1579761863739" duration="19122000" />
+      <workItem from="1579761863739" duration="19715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50240000" />
+    <option name="totallyTimeSpent" value="50833000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="123" y="65" width="1231" height="920" extended-state="0" />
+    <frame x="29" y="124" width="1231" height="920" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13593882" />
@@ -335,17 +337,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/windows.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="154" selection-start-line="154" selection-end-line="154" />
+        <state relative-caret-position="485">
+          <caret line="357" column="38" selection-start-line="357" selection-start-column="38" selection-end-line="357" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/windows.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="356" column="59" selection-start-line="356" selection-start-column="59" selection-end-line="356" selection-end-column="59" />
+        <state relative-caret-position="201">
+          <caret line="56" column="127" selection-start-line="56" selection-start-column="127" selection-end-line="56" selection-end-column="127" />
         </state>
       </provider>
     </entry>
