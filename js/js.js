@@ -12,29 +12,6 @@ $('.fas.fa-times').on('click', function() {
     $('.overlay').removeClass('is-active');
 });
 
-$('.catalog').owlCarousel({
-    loop:true,
-    margin:30,
-    nav:true,
-    navText:false,
-    dots:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        550:{
-            items:2,
-            nav:true
-        },
-
-        768:{
-            items:3,
-            nav:true
-        }
-    }
-});
-
 $('.banner').owlCarousel({
     loop:true,
     items: 1,
@@ -45,7 +22,6 @@ $('.banner').owlCarousel({
 });
 
 // Открытие меню
-
 $('.header__burger').on('click', function() {
     $('.menu').toggleClass('is-active');
 });
