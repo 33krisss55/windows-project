@@ -20,19 +20,15 @@ $('.catalog').owlCarousel({
     dots:true,
     responsive:{
         0:{
-            items:3,
+            items:1,
             nav:true
         },
-        500:{
-            items:3,
+        550:{
+            items:2,
             nav:true
         },
 
-        800:{
-            items:3,
-            nav:true
-        },
-        1200:{
+        768:{
             items:3,
             nav:true
         }
@@ -46,4 +42,10 @@ $('.banner').owlCarousel({
     nav:true,
     navText:false,
     dots:true
+});
+
+// Открытие меню
+
+$('.header__burger').on('click', function() {
+    $('.menu').toggleClass('is-active');
 });
