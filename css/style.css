@@ -180,6 +180,10 @@ table{border-spacing: 0; border-collapse: collapse;}
     .catalog__slide-image{height: 200px;}
 }
 
+@media (max-width: 630px){
+    .catalog__slide-describe-hidden{width: 100%; left: 0; margin-left: 0;}
+}
+
 @media (max-width: 600px){
     .banner__content{flex-direction: column; align-items: flex-end; padding-right: 50px; justify-content: center;}
     .banner-text{width: 80%;}
@@ -200,6 +204,7 @@ table{border-spacing: 0; border-collapse: collapse;}
     .catalog__slide{width: 100%;}
     .main-advatages, .main__partners, .main-catalog, .main-video, .main__about{margin: 40px 0;}
     .footer__developer{padding-top: 10px;}
+    .main__about{padding: 20px 0;}
 }
 
 
