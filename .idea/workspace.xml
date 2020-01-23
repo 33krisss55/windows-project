@@ -2,24 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5c83f2-5fd5-4057-a334-92efd6b54945" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/catalog/img1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/catalog/img10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/catalog/img11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/catalog/img12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/catalog/img13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/catalog/img14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/catalog/img15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/catalog/img16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/catalog/img2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/catalog/img2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/catalog/img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/catalog/img3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/catalog/img4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/catalog/img5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/catalog/img5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/catalog/img6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/catalog/img6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/catalog/img7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/catalog/img7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/catalog/img8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/catalog/img8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/catalog/img9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/catalog/img9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/windows.html" beforeDir="false" afterPath="$PROJECT_DIR$/windows.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/windows.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="258" column="58" lean-forward="true" selection-start-line="258" selection-start-column="58" selection-end-line="258" selection-end-column="58" />
+            <state relative-caret-position="231">
+              <caret line="356" column="59" selection-start-line="356" selection-start-column="59" selection-end-line="356" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -221,18 +203,18 @@
       <workItem from="1579515652935" duration="11007000" />
       <workItem from="1579588426640" duration="6696000" />
       <workItem from="1579676535019" duration="13415000" />
-      <workItem from="1579761863739" duration="18814000" />
+      <workItem from="1579761863739" duration="19122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49932000" />
+    <option name="totallyTimeSpent" value="50240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="123" y="65" width="1231" height="920" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13593882" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13593882" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -244,7 +226,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24111675" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24111675" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -362,8 +344,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/windows.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="258" column="58" lean-forward="true" selection-start-line="258" selection-start-column="58" selection-end-line="258" selection-end-column="58" />
+        <state relative-caret-position="231">
+          <caret line="356" column="59" selection-start-line="356" selection-start-column="59" selection-end-line="356" selection-end-column="59" />
         </state>
       </provider>
     </entry>
