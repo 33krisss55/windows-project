@@ -173,7 +173,8 @@ table{border-spacing: 0; border-collapse: collapse;}
 .contacts__text .mob-link + .mob-link{margin-top: 8px;}
 
 /*Стать нашим дилером*/
-.dealer__form{position: relative; margin: 50px 0;}
+.dealer-page{position: relative; margin: 50px 0;}
+.dealer__form{max-width: 800px; position: relative; margin: 0 auto;}
 .dealer-data{display: flex; justify-content: space-between; margin-top: 30px;}
 .dealer-data .input{width: 49%;}
 .dealer__form .textarea{margin: 10px 0;}
