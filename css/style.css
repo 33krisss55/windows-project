@@ -67,7 +67,7 @@ table{border-spacing: 0; border-collapse: collapse;}
 .banner__content{display: flex; align-items: center; justify-content: flex-end; color: #0d5380; height: 100%; position: relative; z-index: 1;}
 .banner-image{width: 110px; height: 110px; margin-right: 10px; position: relative; margin-left: 20px;}
 .banner-image img{width: 100%; height: 100%; object-fit: contain;}
-.banner-text{font-size: 30px; line-height: 33px; width: 40%; text-align: right; font-weight: 500;}
+.banner-text{font-size: 30px; line-height: 33px; width: 350px; text-align: right; font-weight: 500;}
 
 .main__about{padding: 40px 0; position: relative; background-color: #e4ffff;}
 .main__about h1{margin-bottom: 20px; font-size: 25px; line-height: 28px; text-transform: uppercase;}
