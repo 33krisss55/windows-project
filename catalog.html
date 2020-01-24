@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Каталог</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
     <link href="fonts/fontawesome5/css/all.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
@@ -12,24 +12,29 @@
     <header id="header">
     <div class="inner">
         <ul class="header__info">
-            <li class="header__info-item">
+            <li class="header__info-item header__info-item_logo">
                 <a href="#" class="header__logo">
                     <img src="images/logo2.png" alt="Курский оконный завод">
                 </a>
+                <p class="header__center-text">ООО "КУРСКИЙ ОКОННЫЙ ЗАВОД</p>
             </li>
-            <li class="header__info-item header__info-item_contacts">
-                <p class="header__shedule-mob">
-                    <span class="header__shedule">ООО "КУРСКИЙ ОКОННЫЙ ЗАВОД</span>
-                    <a href="tel:+78003502650" class="mob-link">8 (800)350-26-50</a>
-                </p>
-                <a href="tel:+74712540710" class="mob-link">8 (471)254-07-10</a>
+            <li class="header__info-item header__info-item_shedule">
                 <span class="header__shedule">пн-пт с 09.00 до 18.00</span>
                 <span class="header__shedule">сб с 09.00 до 13.00</span>
+            </li>
+            <li class="header__info-item header__info-item_contacts">
+                <a href="tel:+78003502650" class="mob-link">8 (800)350-26-50</a>
+                <a href="tel:+74712540710" class="mob-link">8 (471)254-07-10</a>
+                <a href="mailto:koz.manager1@gmail.com" class="mob-link">koz.manager1@gmail.com</a>
             </li>
         </ul>
     </div>
     <nav class="nav-menu">
         <div class="inner">
+
+            <div class="header__burger">
+                <i class="fas fa-bars"></i>
+            </div>
             <ul class="menu">
                 <li class="menu-item">
                     <div class="menu-title">Окна и двери ПВХ</div>
@@ -227,18 +232,23 @@
         <footer id="footer">
             <div class="inner">
                 <ul class="footer-list">
-                    <li class="footer-list-item footer-list-item_side">
-                        <span>г. Курск, Элеваторный переулок, д.14</span>
+                    <li class="footer-list-item">
+                        <a class="footer__logo">
+                            <img src="images/logo9.svg" alt="Курский оконный завод">
+                        </a>
                     </li>
                     <li class="footer-list-item">
-                        <span class="header__shedule">пн-пт с 09.00 до 18.00</span>
-                        <span class="header__shedule">сб с 09.00 до 13.00</span>
+                        <a class="mob-link" href="mailto:koz.manager1@gmail.com">Написать директору</a>
                     </li>
-                    <li class="footer-list-item footer-list-item_side">
+                    <li class="footer-list-item footer-list-item_contacts">
+                        <a href="mailto:" class="mob-link mob-link_mail">koz.manager1@gmail.com</a>
                         <a href="tel:+78003502650" class="mob-link">8 (800)350-26-50</a>
                         <a href="tel:+74712540710" class="mob-link">8 (471)254-07-10</a>
                     </li>
                 </ul>
+                <p class="footer__developer">
+                    © ИНТЕР ОКНА, 2020
+                </p>
             </div>
         </footer>
     </div>
