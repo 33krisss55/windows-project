@@ -67,7 +67,7 @@ table{border-spacing: 0; border-collapse: collapse;}
 .banner__content{display: flex; align-items: center; justify-content: flex-end; color: #0d5380; height: 100%; position: relative; z-index: 1;}
 .banner-image{width: 110px; height: 110px; margin-right: 10px; position: relative; margin-left: 20px;}
 .banner-image img{width: 100%; height: 100%; object-fit: contain;}
-.banner-text{font-size: 30px; line-height: 33px; width: 40%; text-align: right; font-weight: 500;}
+.banner-text{font-size: 30px; line-height: 33px; width: 350px; text-align: right; font-weight: 500;}
 
 .main__about{padding: 40px 0; position: relative; background-color: #e4ffff;}
 .main__about h1{margin-bottom: 20px; font-size: 25px; line-height: 28px; text-transform: uppercase;}
@@ -97,12 +97,6 @@ table{border-spacing: 0; border-collapse: collapse;}
 .advatages__item{position: relative; width: 20%; display: flex; flex-direction: column; align-items: center; text-align: center;}
 .advatages__item .title{margin: 15px 0 10px; font-size: 14px; line-height: 17px;}
 .advatages__item i{color: #0070b8; font-size: 70px; line-height: 73px;}
-
-.main__partners{position: relative; margin: 50px 0;}
-.partners{display: flex; justify-content: center; margin-top: 20px;}
-.partners__item{width: 20%; height: 110px; margin: 0 10px 10px;}
-.partners__item a{width: 100%; height: 100%; display: block;}
-.partners__item a img{width: 100%; height: 100%; object-fit: contain;}
 
 #footer{position: relative; background-color: #0070b8; padding: 40px 0; color: #fff;}
 #footer a{color: #fff; display: block;}
@@ -179,6 +173,24 @@ table{border-spacing: 0; border-collapse: collapse;}
 .dealer-data .input{width: 49%;}
 .dealer__form .textarea{margin: 10px 0;}
 
+/*Сертификаты*/
+.sertificates-page{position: relative; margin: 50px 0;}
+.sertificates__text{margin: 10px 0;}
+.sertificates{display: flex; position: relative;}
+.sertificates__item{width: 33%; margin-right: 1%; height: 500px; display: flex; justify-content: center; align-items: center; position: relative; overflow: hidden; box-sizing: border-box; padding: 10px; border-radius: 4px; border: 1px solid #d8d8d8;}
+.sertificates__item img{width: 100%; height: 100%; object-fit: contain;}
+
+/*Партнеры*/
+.partners-page{position: relative; margin: 50px 0;}
+.partners{display: flex; justify-content: center; margin-top: 30px; flex-wrap: wrap;}
+.partners__item{width: 25%; height: 110px; margin: 0 20px 20px;}
+.partners__item a{width: 100%; height: 100%; display: block;}
+.partners__item a img{width: 100%; height: 100%; object-fit: contain;}
+
+/*Доставка*/
+.delivery-page{position: relative; margin: 50px 0;}
+
+
 
 
 @media (max-width: 1200px){
@@ -243,7 +255,7 @@ table{border-spacing: 0; border-collapse: collapse;}
     .partners__item{min-width: 100px;}
     .catalog__slide-image{height: 170px;}
     .catalog__slide{width: 100%; margin-right: 0;}
-    .main-advatages, .main__partners, .main-catalog, .main-video, .main__about{margin: 40px 0;}
+    .main-advatages, .partners-page, .main-catalog, .main-video, .main__about{margin: 40px 0;}
     .footer__developer{padding-top: 10px;}
     .main__about{padding: 20px 0;}
 }
