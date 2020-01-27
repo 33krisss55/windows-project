@@ -63,8 +63,8 @@ table{border-spacing: 0; border-collapse: collapse;}
 .main-banner{position: relative;}
 .banner{position: relative;}
 .banner .inner{height: 100%;}
-.banner__slide{position: relative; height: 450px; width: 100%; background: linear-gradient(to right, transparent 0, transparent 50%, #fff 100%);}
-.banner__slide img{width: 100%; height: 100%; object-fit: cover; position: absolute; left: 0; top: 0; z-index: -1;}
+.banner__slide{position: relative; height: 450px; width: 100%; background: linear-gradient(to right, transparent 0, transparent 50%, #fff 100%); }
+.banner-img{width: 100%; object-fit: cover; position: absolute; left: 0; margin-top: -80px; z-index: -1;}
 .banner__content{display: flex; align-items: center; justify-content: flex-end; color: #0d5380; height: 100%; position: relative; z-index: 1;}
 .banner-image{width: 110px; height: 110px; margin-right: 10px; position: relative; margin-left: 20px;}
 .banner-image img{width: 100%; height: 100%; object-fit: contain;}
@@ -220,10 +220,14 @@ table{border-spacing: 0; border-collapse: collapse;}
     .header__info-item_logo{flex-direction: column; align-items: flex-end;}
     .header__center-text{margin-top: 10px; margin-left: 0;}
     .catalog__slide-image{height: 250px;}
+    .banner-img{margin-top: 0;}
 }
 
 @media (max-width: 1090px){
     .sertificates__item{width: 33%;}
+}
+@media (max-width: 980px){
+    .banner-img{margin-top: -170px; top: 50%;}
 }
 
 @media (max-width: 830px){
@@ -258,35 +262,39 @@ table{border-spacing: 0; border-collapse: collapse;}
 
     .payment{flex-direction: column;}
     .payment-item{width: 100%; margin: 0 0 10px;}
+
+    .banner-image{width: 50px; height: 50px; margin-right: 30px;}
+    .banner-text{font-size: 20px; line-height: 23px; width: 250px;}
+    .banner__slide{height: 200px;}
 }
 
 @media (max-width: 600px){
-    .banner__content{flex-direction: column; align-items: flex-end; padding-right: 50px; justify-content: center;}
-    .banner-text{width: 80%;}
     .video{flex-direction: column;}
     .video-item{width: 100%; height: 300px;}
     .video-item + .video-item{margin-top: 20px;}
     .contacts__image-map{flex-direction: column;}
     .contacts__map{height: 200px; width: 100%;}
     .contacts__text{width: 100%; margin-top: 10px;}
+    .banner-img{margin-top: -100px;}
 }
 
 @media (max-width: 520px){
     .header__info{flex-direction: column; align-items: center;}
     .header__info-item_contacts{text-align: center;}
-    .banner-text{font-size: 25px; line-height: 28px;}
-    .banner__slide{height: 350px;}
     .advatages__item i{font-size: 50px; line-height: 53px;}
     .partners__item{min-width: 100px;}
     .catalog__slide-image{height: 170px;}
     .catalog__slide{width: 100%; margin-right: 0;}
-    .main-advatages, .partners-page, .main-catalog, .main-video, .main__about, .delivery-page, .payment-page{margin: 40px 0;}
+    .main-advatages, .partners-page, .main-catalog, .main-video, .delivery-page, .payment-page{margin: 40px 0;}
     .footer__developer{padding-top: 10px;}
     .main__about{padding: 20px 0;}
     .sertificates__item{width: 100%; height: 300px;}
     .price-table-cell{padding: 2px; font-size: 11px; }
     .payment-item i{font-size: 80px; line-height: 83px;}
     .payment-item{padding: 15px;}
+    .banner__content{flex-direction: column; justify-content: center; align-items: flex-end; padding-right: 50px; height: auto; padding-top: 20px;}
+    .banner__slide{height: 150px; background: linear-gradient(to right, transparent 0,  #fff 100%);}
+    .banner-img{margin-top: 0; top: 0;}
 }
 
 
