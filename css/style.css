@@ -23,6 +23,10 @@ table{border-spacing: 0; border-collapse: collapse;}
 .input, .textarea, .select{width: 100%; transition: 0.2s ease; border: 1px solid #d8d8d8; padding: 10px; border-radius: 4px; box-sizing: border-box;}
 .input:focus, .textarea:focus, .select:focus{border-color: #c1bfbf;}
 
+.breadcrumbs{position: relative; display: flex; margin: 20px 0;}
+.breadcrumbs__item + .breadcrumbs__item{margin-left: 8px;}
+.breadcrumbs__item:before{content: '\f054'; font-family: "Font Awesome 5 Free"; font-weight: bold; display: inline-block; color: #c1bfbf; margin-right: 8px;}
+.breadcrumbs__item:first-child:before{content: '\f015';}
 
 .inner{max-width: 1170px; width: 94%; margin: 0 auto; position: relative;}
 #header{position: relative;}
@@ -99,7 +103,7 @@ table{border-spacing: 0; border-collapse: collapse;}
 .advatages__item .title{margin: 15px 0 10px; font-size: 14px; line-height: 17px;}
 .advatages__item i{color: #0070b8; font-size: 70px; line-height: 73px;}
 
-#footer{position: relative; background-color: #0070b8; padding: 40px 0; color: #fff;}
+#footer{position: relative; background-color: #0070b8; padding: 40px 0; color: #fff; margin-top: 40px;}
 #footer a{color: #fff; display: block;}
 #footer a:hover{color: #f2712d;}
 .footer-list{display: flex; justify-content: space-between;}
@@ -143,11 +147,11 @@ table{border-spacing: 0; border-collapse: collapse;}
 /*.catalog__list-item-text{width: 65%;}*/
 /*.catalog__list-item-text .title{text-align: left;}*/
 
-.catalog-page{position: relative; margin: 50px 0; }
+.catalog-page{position: relative;}
 
 
 /*Контакты*/
-.contacts{position: relative; margin: 50px 0;}
+.contacts{position: relative; }
 .contacts__image-map{position: relative; display: flex; justify-content: space-between; margin-top: 30px; height: 300px;}
 .contacts__map{width: 47%; height: 100%; position: relative; overflow: hidden;}
 .contacts__image{width: 47%; position: relative; overflow: hidden; height: 100%;}
@@ -162,35 +166,36 @@ table{border-spacing: 0; border-collapse: collapse;}
 .contacts__text .mob-link + .mob-link{margin-top: 8px;}
 
 /*Стать нашим дилером*/
-.dealer-page{position: relative; margin: 50px 0;}
+.dealer-page{position: relative;}
 .dealer-text-item{margin-top: 20px;}
 .dealer-text-item .title{margin-bottom: 15px;}
 .dealer-list-item:before{content: '\f058'; font-family: "Font Awesome 5 Free"; font-weight: bold; display: inline-block; margin-right: 10px; color: #0070b8;}
 .dealer-list-item{font-size: 16px;}
 .dealer-list-item + .dealer-list-item{margin-top: 10px;}
 
-.dealer__form{max-width: 850px; position: relative; margin: 0 auto; box-sizing: border-box; padding: 20px; border: 1px solid #d8d8d8; border-radius: 4px; margin-top: 30px;}
+.dealer__form{max-width: 850px; position: relative; margin: 50px auto 0; box-sizing: border-box; padding: 20px; border: 1px solid #d8d8d8; border-radius: 4px;}
 .dealer-data{display: flex; justify-content: space-between;}
 .dealer-data .input{width: 49%;}
 .dealer__form .textarea{margin: 10px 0;}
 
 /*Сертификаты*/
-.sertificates-page{position: relative; margin: 50px 0;}
+.sertificates-page{position: relative; }
 .sertificates-page .title{margin: 40px 0 20px;}
-.sertificates__text{margin: 10px 0;}
+.sertificates__text{margin: 10px 0; font-size: 16px;}
 .sertificates{display: flex; position: relative; flex-wrap: wrap;}
 .sertificates__item{width: 25%; margin-bottom: 15px; box-sizing: border-box; padding-right: 1%; height: 350px; display: flex; justify-content: center; align-items: center; position: relative; overflow: hidden;}
 .sertificates__item img{max-width: 100%; max-height: 100%; object-fit: contain; box-sizing: border-box; padding: 10px; border-radius: 4px; border: 1px solid #d8d8d8;}
 
 /*Партнеры*/
-.partners-page{position: relative; margin: 50px 0;}
+.partners-page{position: relative;}
 .partners{display: flex; justify-content: center; margin-top: 30px; flex-wrap: wrap;}
-.partners__item{width: 25%; height: 110px; margin: 0 20px 20px;}
+.partners__item{transition: 0.2s ease; width: 25%; height: 110px; margin: 0 20px 20px; border: 1px solid #d8d8d8; border-radius: 4px; padding: 10px; box-sizing: border-box;}
+.partners__item:hover{transform: scale(1.05);}
 .partners__item a{width: 100%; height: 100%; display: block;}
 .partners__item a img{width: 100%; height: 100%; object-fit: contain;}
 
 /*Доставка*/
-.delivery-page{position: relative; margin: 50px 0;}
+.delivery-page{position: relative; }
 .delivery{display: flex; justify-content: space-between; position: relative; align-items: center; padding: 30px 0;}
 .delivery-image{width: 50%; height: 350px;}
 .delivery-image img{width: 100%; height: 100%; object-fit: contain;}
@@ -204,7 +209,7 @@ table{border-spacing: 0; border-collapse: collapse;}
 
 /*Способы оплаты */
 
-.payment-page{position: relative; margin: 50px 0;}
+.payment-page{position: relative; }
 .payment-text{margin: 20px 0;}
 .payment{display: flex; justify-content: center; position: relative;}
 .payment-item{transition: 0.2s ease; margin: 10px 20px; width: 33%; position: relative; text-align: center; box-sizing: border-box; padding: 30px; border-radius: 4px; border: 1px solid #d8d8d8;}
@@ -285,7 +290,7 @@ table{border-spacing: 0; border-collapse: collapse;}
     .partners__item{min-width: 100px;}
     .catalog__slide-image{height: 170px;}
     .catalog__slide{width: 100%; margin-right: 0;}
-    .main-advatages, .partners-page, .main-catalog, .main-video, .delivery-page, .payment-page{margin: 40px 0;}
+    .main-advatages, .main-catalog, .main-video{margin: 30px 0;}
     .footer__developer{padding-top: 10px;}
     .main__about{padding: 20px 0;}
     .sertificates__item{width: 100%; height: 300px;}
@@ -295,11 +300,15 @@ table{border-spacing: 0; border-collapse: collapse;}
     .banner__content{flex-direction: column; justify-content: center; align-items: flex-end; padding-right: 45px; height: auto; padding-top: 20px;}
     .banner__slide{height: 150px; background: linear-gradient(to right, transparent 0,  #fff 100%);}
     .banner-img{margin-top: 0; top: 0;}
+    .dealer-list-item{font-size: 14px;}
 }
 
 @media (max-width: 425px){
     .banner-text{font-size: 16px;}
     .banner-text{width: 200px;}
+    .dealer-data{flex-direction: column;}
+    .dealer-data .input{width: 100%; margin-bottom: 10px;}
+    .dealer__form .textarea{margin-top: 0;}
 }
 
 
