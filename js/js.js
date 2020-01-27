@@ -25,3 +25,8 @@ $('.banner').owlCarousel({
 $('.header__burger').on('click', function() {
     $('.menu').toggleClass('is-active');
 });
+
+
+$(document).ready(function() {
+    $(".fancybox").fancybox();
+});

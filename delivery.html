@@ -2,119 +2,325 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Доставка</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+          rel="stylesheet">
+    <link href="fonts/fontawesome5/css/all.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
     <header id="header">
+    <div class="inner">
+        <ul class="header__info">
+            <li class="header__info-item header__info-item_logo">
+                <a href="#" class="header__logo">
+                    <img src="images/logo2.png" alt="Курский оконный завод">
+                </a>
+                <p class="header__center-text">ООО "КУРСКИЙ ОКОННЫЙ ЗАВОД</p>
+            </li>
+            <li class="header__info-item header__info-item_shedule">
+                <span class="header__shedule">пн-пт с 09.00 до 18.00</span>
+                <span class="header__shedule">сб с 09.00 до 13.00</span>
+            </li>
+            <li class="header__info-item header__info-item_contacts">
+                <a href="tel:+78003502650" class="mob-link">8 (800)350-26-50</a>
+                <a href="tel:+74712540710" class="mob-link">8 (471)254-07-10</a>
+                <a href="mailto:koz.manager1@gmail.com" class="mob-link">koz.manager1@gmail.com</a>
+            </li>
+        </ul>
+    </div>
+    <nav class="nav-menu">
         <div class="inner">
-            <ul class="header__info">
-                <li class="header__info-item header__info-item_logo">
-                    <a href="#" class="header__logo">
-                        <img src="images/logo2.png" alt="Курский оконный завод">
-                    </a>
-                    <p class="header__center-text">ООО "КУРСКИЙ ОКОННЫЙ ЗАВОД</p>
+
+            <div class="header__burger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="menu">
+                <li class="menu-item">
+                    <div class="menu-title">Окна и двери ПВХ</div>
+                    <div class="menu-hidden-list">
+                        <a href="#" class="menu-hidden-list-item">Пластиковые окна</a>
+                        <a href="#" class="menu-hidden-list-item">Пластиковые двери</a>
+                        <a href="#" class="menu-hidden-list-item">Порталы</a>
+                        <a href="#" class="menu-hidden-list-item">Ламинация изделий</a>
+                        <a href="#" class="menu-hidden-list-item">Распродажа готовых окон</a>
+                    </div>
                 </li>
-                <li class="header__info-item header__info-item_shedule">
-                    <span class="header__shedule">пн-пт с 09.00 до 18.00</span>
-                    <span class="header__shedule">сб с 09.00 до 13.00</span>
+                <li class="menu-item">
+                    <div class="menu-title">Алюминий</div>
+                    <div class="menu-hidden-list">
+                        <a href="#" class="menu-hidden-list-item">Балконное остекление</a>
+                        <a href="#" class="menu-hidden-list-item">Двери холодные</a>
+                        <a href="#" class="menu-hidden-list-item">Двери теплые</a>
+                    </div>
                 </li>
-                <li class="header__info-item header__info-item_contacts">
-                    <a href="tel:+78003502650" class="mob-link">8 (800)350-26-50</a>
-                    <a href="tel:+74712540710" class="mob-link">8 (471)254-07-10</a>
-                    <a href="mailto:koz.manager1@gmail.com" class="mob-link">koz.manager1@gmail.com</a>
+                <li class="menu-item">
+                    <div class="menu-title">Аксессуары</div>
+                    <div class="menu-hidden-list">
+                        <a href="#" class="menu-hidden-list-item">Москитные сетки</a>
+                        <a href="#" class="menu-hidden-list-item">Подоконники</a>
+                        <a href="#" class="menu-hidden-list-item">Отливы/Козырьки</a>
+                        <a href="#" class="menu-hidden-list-item">Стеклопакеты</a>
+                        <a href="#" class="menu-hidden-list-item">Ручки</a>
+                        <a href="#" class="menu-hidden-list-item">Детский замок</a>
+                        <a href="#" class="menu-hidden-list-item">Наборы по уходу за окнами</a>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <div class="menu-title">Услуги</div>
+                    <div class="menu-hidden-list">
+                        <a href="#" class="menu-hidden-list-item">Доставка</a>
+                        <a href="#" class="menu-hidden-list-item">Рекламации</a>
+                        <a href="#" class="menu-hidden-list-item">Способы оплаты</a>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <div class="menu-title">Сертификаты</div>
+                    <div class="menu-hidden-list">
+                        <a href="#" class="menu-hidden-list-item">Профиль</a>
+                        <a href="#" class="menu-hidden-list-item">Стеклопакеты</a>
+                        <a href="#" class="menu-hidden-list-item">Фурнитура</a>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <div class="menu-title">Сотрудничество</div>
+                    <div class="menu-hidden-list">
+                        <a href="#" class="menu-hidden-list-item">Как стать нашим дилером</a>
+                        <a href="#" class="menu-hidden-list-item">Условия для застройщиков</a>
+                        <a href="#" class="menu-hidden-list-item">Наши партнёры</a>
+                        <a href="#" class="menu-hidden-list-item">О компании</a>
+                        <a href="#" class="menu-hidden-list-item">Новости</a>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <div class="menu-title">Производство</div>
+                    <div class="menu-hidden-list">
+                        <a href="#" class="menu-hidden-list-item">Онлайн трансляция с производства</a>
+                        <a href="#" class="menu-hidden-list-item">Сроки изговления продукции</a>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <div class="menu-title">Контакты</div>
+                    <div class="menu-hidden-list">
+                        <a href="#" class="menu-hidden-list-item">Центральный офис</a>
+                        <a href="#" class="menu-hidden-list-item">Офисы в Курске</a>
+                        <a href="#" class="menu-hidden-list-item">Офисы в других регионах</a>
+                        <a href="#" class="menu-hidden-list-item">Написать директору</a>
+                    </div>
                 </li>
             </ul>
         </div>
-        <nav class="nav-menu">
-            <div class="inner">
-
-                <div class="header__burger">
-                    <i class="fas fa-bars"></i>
-                </div>
-                <ul class="menu">
-                    <li class="menu-item">
-                        <div class="menu-title">Окна и двери ПВХ</div>
-                        <div class="menu-hidden-list">
-                            <a href="#" class="menu-hidden-list-item">Пластиковые окна</a>
-                            <a href="#" class="menu-hidden-list-item">Пластиковые двери</a>
-                            <a href="#" class="menu-hidden-list-item">Порталы</a>
-                            <a href="#" class="menu-hidden-list-item">Ламинация изделий</a>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <div class="menu-title">Алюминий</div>
-                        <div class="menu-hidden-list">
-                            <a href="#" class="menu-hidden-list-item">Балконное остекление</a>
-                            <a href="#" class="menu-hidden-list-item">Двери холодные</a>
-                            <a href="#" class="menu-hidden-list-item">Двери теплые</a>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <div class="menu-title">Аксессуары</div>
-                        <div class="menu-hidden-list">
-                            <a href="#" class="menu-hidden-list-item">Москитные сетки</a>
-                            <a href="#" class="menu-hidden-list-item">Подоконники</a>
-                            <a href="#" class="menu-hidden-list-item">Отливы/Козырьки</a>
-                            <a href="#" class="menu-hidden-list-item">Стеклопакеты</a>
-                            <a href="#" class="menu-hidden-list-item">Ручки</a>
-                            <a href="#" class="menu-hidden-list-item">Детский замок</a>
-                            <a href="#" class="menu-hidden-list-item">Наборы по уходу за окнами</a>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <div class="menu-title">Услуги</div>
-                        <div class="menu-hidden-list">
-                            <a href="#" class="menu-hidden-list-item">Доставка</a>
-                            <a href="#" class="menu-hidden-list-item">Рекламации</a>
-                            <a href="#" class="menu-hidden-list-item">Способы оплаты</a>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <div class="menu-title">Сертификаты</div>
-                        <div class="menu-hidden-list">
-                            <a href="#" class="menu-hidden-list-item">Профиль</a>
-                            <a href="#" class="menu-hidden-list-item">Стеклопакеты</a>
-                            <a href="#" class="menu-hidden-list-item">Фурнитура</a>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <div class="menu-title">Сотрудничество</div>
-                        <div class="menu-hidden-list">
-                            <a href="#" class="menu-hidden-list-item">Как стать нашим дилером</a>
-                            <a href="#" class="menu-hidden-list-item">Условия для застройщиков</a>
-                            <a href="#" class="menu-hidden-list-item">Наши партнёры</a>
-                            <a href="#" class="menu-hidden-list-item">О компании</a>
-                            <a href="#" class="menu-hidden-list-item">Новости</a>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <div class="menu-title">Производство</div>
-                        <div class="menu-hidden-list">
-                            <a href="#" class="menu-hidden-list-item">Онлайн трансляция с производства</a>
-                            <a href="#" class="menu-hidden-list-item">Сроки изговления продукции</a>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <div class="menu-title">Контакты</div>
-                        <div class="menu-hidden-list">
-                            <a href="#" class="menu-hidden-list-item">Центральный офис</a>
-                            <a href="#" class="menu-hidden-list-item">Офисы в Курске</a>
-                            <a href="#" class="menu-hidden-list-item">Офисы в других регионах</a>
-                            <a href="#" class="menu-hidden-list-item">Написать директору</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    </nav>
+</header>
     <div class="content">
         <main>
             <section class="delivery-page">
                 <div class="inner">
+                    <h1 class="title">Доставка</h1>
                     <div class="delivery">
-
+                        <div class="delivery-image"><img alt="" src="images/delivery2.jpg"></div>
+                        <div class="delivery-text">
+                            <p class="delivery-text-detail">Качественно произвести окно мало. Необходимо ещё его качественно
+                                доставить и установить.</p>
+                            <p class="delivery-text-detail">
+                                С производства изделия поступают в специально оборудованную зону отгрузки, на которой
+                                установлены специальные пирамиды для адресного хранения. Все окна, балконы, подоконники,
+                                отливы и москитные сетки имеют особые пометки, чтобы никто не сомневался: это именно то
+                                изделие, которое нужно.
+                            </p>
+                            <p class="delivery-text-detail">
+                                За два дня до готовности изделий, наш логист уже планирует доставки. К моменту поступления
+                                заказа на склад уже определено: машина, водитель, дата и время отъезда.
+                            </p>
+                            <p class="delivery-text-detail">
+                                Чтобы наши Клиенты были уверены в подлинности изделий, мы обклеиваем автомобили специальными
+                                наклейками с нашими контактами.
+                            </p>
+                        </div>
                     </div>
+                    <div>
+                        <p class="delivery-text-detail">
+                            Окна – сложная инженерная конструкция, и при перевозке могут пострадать. Мы ставим
+                            дополнительные подкладки под стеклопакеты и проверяем: закрыто ли окно? Если необходимо, мы
+                            упаковываем его в стрейч-плёнку.
+                        </p>
+                        <p class="delivery-text-detail">
+                            Перед отгрузкой контролёр ещё раз проверяет отсутствие брака и комплектность. Затем на
+                            автопогрузчике пирамида устанавливается на автомобиль и крепится усиленными болтами. Снаружи она
+                            утягивается ремнями. Водитель берёт маршрутный лист и везёт окна к нашим Клиентам.
+                        </p>
+                        <p class="delivery-text-detail">
+                            При заключении договора с монтажом наши Клиенты не платят за эту услугу, если адрес находится в
+                            черте города. Привоз изделий, заказанных в компании, по адресу, за чертой города стоит 20 руб за
+                            километр. Чтобы Вы не высчитывали стоимость доставки, мы сделали прайс
+                        </p>
+                    </div>
+                    <article class="delivery-describe">
+                        <h2 class="title">Прайс на доставку</h2>
+                        <p class="delivery-text-detail">
+                            Доставка изделий, заказанных с монтажём по городу Курску:
+                            <strong> бесплатно</strong>.
+                        </p>
+                        <p class="delivery-text-detail">
+                            Доставка изделий, заказанных без монтажа по городу Курску:
+                            <strong>400 руб</strong>.
+                        </p>
+                        <p class="delivery-text-detail">
+                            Доставка изделий, заказанных в компании из других районов Курской области:
+                        </p>
+                        <table class="price-table">
+                            <thead>
+                                <tr class="price-table-row">
+                                    <th class="price-table-cell">Муниципальный район</th>
+                                    <th class="price-table-cell">Центр района</th>
+                                    <th class="price-table-cell">Стоимость доставки</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Беловский</td>
+                                    <td class="price-table-cell">Сл. Белая</td>
+                                    <td class="price-table-cell">2 800 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Большесолдатский</td>
+                                    <td class="price-table-cell">с. Большое Солдатское</td>
+                                    <td class="price-table-cell">2 100 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Глушковский</td>
+                                    <td class="price-table-cell">пгт. Глушково</td>
+                                    <td class="price-table-cell">3 600 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Горшеченский</td>
+                                    <td class="price-table-cell">пгт. Горшечное</td>
+                                    <td class="price-table-cell">3 600 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Дмитриевский</td>
+                                    <td class="price-table-cell">г. Дмитриев</td>
+                                    <td class="price-table-cell">2 800 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Железногорский</td>
+                                    <td class="price-table-cell">г. Железногорск</td>
+                                    <td class="price-table-cell">3 400 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Золотухинский</td>
+                                    <td class="price-table-cell">пгт. Золотухино</td>
+                                    <td class="price-table-cell">1 800 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Касторенский</td>
+                                    <td class="price-table-cell">пгт. Касторное</td>
+                                    <td class="price-table-cell">4 000 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Конышевский</td>
+                                    <td class="price-table-cell">пгт. Конышевка</td>
+                                    <td class="price-table-cell">2 800 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Кореневский</td>
+                                    <td class="price-table-cell">пгт. Коренево</td>
+                                    <td class="price-table-cell">3 400 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Курчатовский</td>
+                                    <td class="price-table-cell">г. Курчатов</td>
+                                    <td class="price-table-cell">1 400 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Льговский</td>
+                                    <td class="price-table-cell">г. Льгов</td>
+                                    <td class="price-table-cell">2 200 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Мантуровский</td>
+                                    <td class="price-table-cell">с. Мантурово</td>
+                                    <td class="price-table-cell">2 800 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Медвенский</td>
+                                    <td class="price-table-cell">пгт. Медвенка</td>
+                                    <td class="price-table-cell">1 600 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Обоянский</td>
+                                    <td class="price-table-cell">г. Обоянь</td>
+                                    <td class="price-table-cell">1 800 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Октябрьский</td>
+                                    <td class="price-table-cell">пгт. Прямицыно</td>
+                                    <td class="price-table-cell" style="padding-left:17px">400 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Поныровский</td>
+                                    <td class="price-table-cell">пгт. Поныри</td>
+                                    <td class="price-table-cell">2 400 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Пристенский</td>
+                                    <td class="price-table-cell">пгт. Пристень</td>
+                                    <td class="price-table-cell">2 800 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Рыльский</td>
+                                    <td class="price-table-cell">г. Рыльск</td>
+                                    <td class="price-table-cell">3 000 руб</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Советский</td>
+                                    <td class="price-table-cell">пгт. Кшенский</td>
+                                    <td class="price-table-cell">2 800 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Солнцевский</td>
+                                    <td class="price-table-cell">пгт. Солнцево</td>
+                                    <td class="price-table-cell">2 300 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Суджанский</td>
+                                    <td class="price-table-cell">г. Суджа</td>
+                                    <td class="price-table-cell">2 500 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Тимский</td>
+                                    <td class="price-table-cell">пгт. Тим</td>
+                                    <td class="price-table-cell">2 300 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Фатежский</td>
+                                    <td class="price-table-cell">г. Фатеж</td>
+                                    <td class="price-table-cell">1 700 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Хомутовский</td>
+                                    <td class="price-table-cell">пгт. Хомутовка</td>
+                                    <td class="price-table-cell">3 800 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Черемисиновский</td>
+                                    <td class="price-table-cell">пгт. Черемисиново</td>
+                                    <td class="price-table-cell">2 600 руб.</td>
+                                </tr>
+                                <tr class="price-table-row">
+                                    <td class="price-table-cell">Щигровский</td>
+                                    <td class="price-table-cell">г. Щигры</td>
+                                    <td class="price-table-cell">2 100 руб.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="delivery-text-end">
+                            Мы не занимаемся грузоперевозками других производителей окон.
+                        </p>
+                    </article>
+
                 </div>
             </section>
         </main>
@@ -126,8 +332,16 @@
                             <img src="images/logo9.svg" alt="Курский оконный завод">
                         </a>
                     </li>
-                    <li class="footer-list-item">
-                        <a class="mob-link" href="mailto:koz.manager1@gmail.com">Написать директору</a>
+                    <li class="footer-list-item footer-list-item_links">
+                        <a class="footer-list-item-link" href="#">Окна и двери ПВХ</a>
+                        <a class="footer-list-item-link" href="#">Алюминий</a>
+                        <a class="footer-list-item-link" href="#">Аксессуары</a>
+                        <a class="footer-list-item-link" href="#">Услуги</a>
+                        <a class="footer-list-item-link" href="#">Сертификаты</a>
+                        <a class="footer-list-item-link" href="#">Сотрудничество</a>
+                        <a class="footer-list-item-link" href="#">Производство</a>
+                        <a class="footer-list-item-link" href="#">Контакты</a>
+
                     </li>
                     <li class="footer-list-item footer-list-item_contacts">
                         <a href="mailto:" class="mob-link mob-link_mail">koz.manager1@gmail.com</a>
