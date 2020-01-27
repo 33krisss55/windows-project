@@ -124,7 +124,7 @@ table{border-spacing: 0; border-collapse: collapse;}
 .owl-item{position:relative; overflow:hidden; float:left;}
 .no-js .owl-carousel, .owl-carousel.owl-loaded {display: block;}
 .owl-carousel{ display: none; width: 100%; z-index: 1; box-sizing:border-box;}
-.owl-prev, .owl-next{ cursor: pointer; transition: 0.2s ease; font-weight: bold; color: #d8d8d8; font-size: 45px; line-height: 48px; position: absolute; top: 35%; left: 0;}
+.owl-prev, .owl-next{ cursor: pointer; transition: 0.2s ease; font-weight: bold; z-index: 5; color: #d8d8d8; font-size: 45px; line-height: 48px; position: absolute; top: 35%; left: 0;}
 .owl-next{right: 0; left: auto;}
 .owl-prev:hover, .owl-next:hover{color: #c1bfbf;}
 .owl-prev:before{content: '\f053'; font-family: "Font Awesome 5 Free"; display: inline-block;}
