@@ -292,9 +292,14 @@ table{border-spacing: 0; border-collapse: collapse;}
     .price-table-cell{padding: 2px; font-size: 11px; }
     .payment-item i{font-size: 80px; line-height: 83px;}
     .payment-item{padding: 15px;}
-    .banner__content{flex-direction: column; justify-content: center; align-items: flex-end; padding-right: 50px; height: auto; padding-top: 20px;}
+    .banner__content{flex-direction: column; justify-content: center; align-items: flex-end; padding-right: 45px; height: auto; padding-top: 20px;}
     .banner__slide{height: 150px; background: linear-gradient(to right, transparent 0,  #fff 100%);}
     .banner-img{margin-top: 0; top: 0;}
+}
+
+@media (max-width: 425px){
+    .banner-text{font-size: 16px;}
+    .banner-text{width: 200px;}
 }
 
 
