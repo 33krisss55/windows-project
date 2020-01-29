@@ -16,7 +16,7 @@ h1.title{font-size: 25px; line-height: 28px;}
 table{border-spacing: 0; border-collapse: collapse;}
 .fas.fa-times{color: #d8d8d8; cursor: pointer;}
 .fas.fa-times:hover{color: #c1bfbf;}
-.mob-link{display: block;}
+.mob-link{display: inline-block;}
 
 /*Формы*/
 .form{position: relative; box-sizing: border-box; margin: 40px auto 0; padding: 20px; border: 1px solid #d8d8d8; border-radius: 4px; max-width: 850px;}
@@ -116,7 +116,7 @@ table{border-spacing: 0; border-collapse: collapse;}
 .footer-list{display: flex; justify-content: space-between;}
 .footer-list-item{text-align: right; position: relative;}
 .footer-list-item .header__shedule + .header__shedule, .mob-link + .mob-link{margin-top: 5px;}
-.footer-list-item .mob-link{color: #fff;}
+.footer-list-item .mob-link{color: #fff; display: block;}
 .footer-list-item .mob-link:hover{color: #f2712d;}
 .footer-list-item_contacts{padding-left: 20px;}
 .footer-list-item_contacts .mob-link:before{content: '\f879'; font-family: "Font Awesome 5 Free"; font-weight: bold; color: #ffffff; position: absolute; margin-left: -20px;}
@@ -164,7 +164,7 @@ table{border-spacing: 0; border-collapse: collapse;}
 .contacts__text-item + .contacts__text-item{margin-top: 15px;}
 .contacts__adress{margin-bottom: 13px;}
 .contacts__text .header__shedule{margin-top: 8px;}
-.contacts__text .mob-link + .mob-link{margin-top: 8px;}
+.contacts__text .cover-mob-link + .cover-mob-link{margin-top: 8px;}
 .contacts__text-item .header__shedule_right{padding-left: 23px;}
 .contacts__town{text-transform: uppercase; font-weight: bold; font-size: 16px;}
 .contacts__offices{margin-top: 15px;}
