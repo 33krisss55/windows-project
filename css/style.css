@@ -151,8 +151,9 @@ table{border-spacing: 0; border-collapse: collapse;}
 
 /*Контакты*/
 .contacts{position: relative; }
-.contacts__item{position: relative; display: flex; justify-content: space-between; margin-top: 30px;}
+.contacts__item{position: relative; display: flex; justify-content: space-between; margin-top: 30px; flex-wrap: wrap;}
 .contacts__map{width: 47%; height: 300px; position: relative; overflow: hidden;}
+.contacts__map img{width: 100%; height: 100%; object-fit: cover;}
 .contacts__item-img{width: 47%; height: 230px; position: relative; overflow: hidden;}
 .contacts__item-img img{width: 100%; height: 100%; object-fit: contain;}
 .contacts__image{width: 47%; position: relative; overflow: hidden; height: 100%;}
@@ -170,6 +171,8 @@ table{border-spacing: 0; border-collapse: collapse;}
 .contacts__offices + .contacts__offices{margin-top: 40px;}
 .contact-banner{position: relative; margin: 20px 0; height: 350px; overflow: hidden;}
 .contact-banner img{width: 100%; height: 100%; object-fit: cover;}
+.contacts__item-image{width: 100%; margin-top: 20px; height: 300px;}
+
 
 /*Стать нашим дилером*/
 .dealer-page{position: relative;}
@@ -298,8 +301,8 @@ table{border-spacing: 0; border-collapse: collapse;}
     .video{flex-direction: column;}
     .video-item{width: 100%; height: 300px;}
     .video-item + .video-item{margin-top: 20px;}
-    .contacts__item{flex-direction: column;}
-    .contacts__map{height: 200px; width: 100%;}
+    .contacts__item{flex-direction: column; border-bottom: 1px solid #d8d8d8; padding-bottom: 10px;}
+    .contacts__map{height: 200px; width: 100%; order: 1; margin-top: 10px;}
     .contacts__item-img{height: 200px; width: 100%;}
     .contacts__text{width: 100%; margin-top: 10px; text-align: center;}
     .banner-img{margin-top: -100px;}
