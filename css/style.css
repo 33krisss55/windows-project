@@ -61,7 +61,7 @@ table{border-spacing: 0; border-collapse: collapse;}
 .nav-menu{background-color: #f4f4f4; border-bottom: 1px solid #d8d8d8; border-top: 1px solid #d8d8d8;}
 .menu{display: flex; justify-content: space-between; align-items: center; }
 .menu-item{position: relative; padding: 10px 0; width: 14%; box-sizing: border-box; text-align: center; cursor: pointer; color: #0070b8; font-weight: bold;}
-.menu-item:hover{color: #0d5380;}
+.menu-item:hover, .menu-item .menu-title:hover{color: #0d5380;}
 .menu-item.is-active{color: #0d5380;}
 .menu-item + .menu-item{padding-left: 3px;}
 .menu-title{cursor: pointer;}
