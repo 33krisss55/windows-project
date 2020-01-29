@@ -16,6 +16,7 @@ h1.title{font-size: 25px; line-height: 28px;}
 table{border-spacing: 0; border-collapse: collapse;}
 .fas.fa-times{color: #d8d8d8; cursor: pointer;}
 .fas.fa-times:hover{color: #c1bfbf;}
+.mob-link{display: block;}
 
 .button{width: 100%; color: #fff; transition: 0.2s ease; background-color: #0074b8; border: 2px solid #0074b8; padding: 10px; border-radius: 4px;}
 .button:hover{background-color: #fff; color: #0074b8;}
@@ -35,7 +36,7 @@ table{border-spacing: 0; border-collapse: collapse;}
 .header__info-item_shedule{padding-left: 30px;}
 .header__info-item_shedule:before{content: '\f017'; font-family: "Font Awesome 5 Free"; font-weight: bold; position: absolute; left: 0; color: #0070b8; font-size: 21px; line-height: 24px; margin-top: 3px;}
 .header__info-item_contacts{text-align: right;}
-.header__info-item .mob-link{font-size: 18px; line-height: 21px; font-weight: 500; }
+.header__info-item .mob-link{font-size: 18px; line-height: 21px; font-weight: 500;}
 .header__info-item .mob-link + .mob-link{margin-top: 5px;}
 .header__info-item_logo{flex-direction: row; align-items: center;}
 .header__center-text{ font-size: 14px; line-height: 17px; font-weight: 500; margin-left: 40px;}
@@ -104,19 +105,19 @@ table{border-spacing: 0; border-collapse: collapse;}
 .advatages__item i{color: #0070b8; font-size: 70px; line-height: 73px;}
 
 #footer{position: relative; background-color: #0070b8; padding: 40px 0; color: #fff; margin-top: 40px;}
-#footer a{color: #fff; display: block;}
+#footer a{color: #fff;}
 #footer a:hover{color: #f2712d;}
 .footer-list{display: flex; justify-content: space-between;}
-.footer-list-item{display: flex; flex-direction: column; text-align: right; position: relative;}
+.footer-list-item{text-align: right; position: relative;}
 .footer-list-item .header__shedule + .header__shedule, .mob-link + .mob-link{margin-top: 5px;}
 .footer-list-item .mob-link{color: #fff;}
 .footer-list-item .mob-link:hover{color: #f2712d;}
 .footer-list-item_contacts{padding-left: 20px;}
 .footer-list-item_contacts .mob-link:before{content: '\f879'; font-family: "Font Awesome 5 Free"; font-weight: bold; color: #ffffff; position: absolute; margin-left: -20px;}
 .footer-list-item_contacts .mob-link.mob-link_mail:before{content: '\f0e0';}
-.footer-list-item_links{flex-direction: row; justify-content: space-between; flex-wrap: wrap; width: 50%; text-align: center;}
+.footer-list-item_links{display: flex; justify-content: space-between; flex-wrap: wrap; width: 50%; text-align: center;}
 .footer-list-item-link{width: 47%; display: block; margin-bottom: 8px;}
-.footer__logo{display: block; position: relative; max-width: 250px; max-height: 200px;}
+.footer__logo{display: block; position: relative; max-width: 250px; max-height: 200px; margin: 0 auto;}
 .footer__logo img{width: 100%; height: 100%; object-fit: contain;}
 .footer__developer{text-align: center; padding-top: 30px; font-size: 16px; line-height: 19px; color: #fff; }
 .footer__developer i{font-family: "Font Awesome 5 Free"; font-weight: bold; display: inline-block; margin-right: 5px; color: #fff;}
@@ -152,18 +153,24 @@ table{border-spacing: 0; border-collapse: collapse;}
 
 /*Контакты*/
 .contacts{position: relative; }
-.contacts__image-map{position: relative; display: flex; justify-content: space-between; margin-top: 30px; height: 300px;}
-.contacts__map{width: 47%; height: 100%; position: relative; overflow: hidden;}
+.contacts__item{position: relative; display: flex; justify-content: space-between; margin-top: 30px;}
+.contacts__map{width: 47%; height: 300px; position: relative; overflow: hidden;}
+.contacts__item-img{width: 47%; height: 230px; position: relative; overflow: hidden;}
+.contacts__item-img img{width: 100%; height: 100%; object-fit: contain;}
 .contacts__image{width: 47%; position: relative; overflow: hidden; height: 100%;}
 .contacts__image img{width: 100%; height: 100%; object-fit: cover;}
 .contacts__text{width: 49%; position: relative;}
 .contacts__text .mob-link:before{content: '\f879'; font-family: "Font Awesome 5 Free"; font-weight: bold; color: #0070b8; display: inline-block; margin-right: 5px;}
 .contacts__text .mob-link.mob-link_mail:before{content: '\f0e0';}
-.contacts__text-item{display: flex; flex-direction: column;}
 .contacts__text-item + .contacts__text-item{margin-top: 15px;}
 .contacts__adress{margin-bottom: 13px;}
 .contacts__text .header__shedule{margin-top: 8px;}
 .contacts__text .mob-link + .mob-link{margin-top: 8px;}
+.contacts__town{text-transform: uppercase; font-weight: bold; font-size: 16px;}
+.contacts__offices{margin-top: 15px;}
+.contacts__offices + .contacts__offices{margin-top: 40px;}
+.contact-banner{position: relative; margin: 20px 0; height: 350px; overflow: hidden;}
+.contact-banner img{width: 100%; height: 100%; object-fit: cover;}
 
 /*Стать нашим дилером*/
 .dealer-page{position: relative;}
@@ -173,10 +180,11 @@ table{border-spacing: 0; border-collapse: collapse;}
 .dealer-list-item{font-size: 16px;}
 .dealer-list-item + .dealer-list-item{margin-top: 10px;}
 
-.dealer__form{max-width: 850px; position: relative; margin: 50px auto 0; box-sizing: border-box; padding: 20px; border: 1px solid #d8d8d8; border-radius: 4px;}
-.dealer-data{display: flex; justify-content: space-between;}
-.dealer-data .input{width: 49%;}
-.dealer__form .textarea{margin: 10px 0;}
+.form_dealer{max-width: 850px; margin: 50px auto 0;}
+.form_dealer .form-double{margin-bottom: 10px;}
+.form_dealer .textarea{margin-bottom: 10px;}
+.form_dealer .input{margin-bottom: 10px;}
+.form-double .input{width: 49%; margin-bottom: 0;}
 
 /*Сертификаты*/
 .sertificates-page{position: relative; }
@@ -217,6 +225,18 @@ table{border-spacing: 0; border-collapse: collapse;}
 .payment-item i{color: #0070b8; font-size: 90px; line-height: 93px;}
 .payment-text{ font-size: 16px;}
 .payment-item-text{margin-top: 15px;}
+
+/*Для застройщиков*/
+.developers{position: relative;}
+.developers__images-block{display: flex; position: relative; justify-content: space-between;}
+.developers__image{width: 49%; position: relative; height: 300px;}
+.developers__image img{width: 100%; height: 100%; object-fit: cover; }
+.developers__text{margin: 15px 0;}
+
+/*Формы*/
+.form.form_dealer{position: relative; box-sizing: border-box; padding: 20px; border: 1px solid #d8d8d8; border-radius: 4px;}
+.form-double{display: flex; justify-content: space-between;}
+
 
 
 @media (max-width: 1200px){
@@ -277,10 +297,14 @@ table{border-spacing: 0; border-collapse: collapse;}
     .video{flex-direction: column;}
     .video-item{width: 100%; height: 300px;}
     .video-item + .video-item{margin-top: 20px;}
-    .contacts__image-map{flex-direction: column;}
+    .contacts__item{flex-direction: column;}
     .contacts__map{height: 200px; width: 100%;}
-    .contacts__text{width: 100%; margin-top: 10px;}
+    .contacts__item-img{height: 200px; width: 100%;}
+    .contacts__text{width: 100%; margin-top: 10px; text-align: center;}
     .banner-img{margin-top: -100px;}
+    .developers__images-block{flex-direction: column;}
+    .developers__image{width: 100%; margin-bottom: 10px; height: 200px;}
+    .form.form_dealer{margin: 20px auto 0;}
 }
 
 @media (max-width: 520px){
@@ -306,8 +330,8 @@ table{border-spacing: 0; border-collapse: collapse;}
 @media (max-width: 425px){
     .banner-text{font-size: 16px;}
     .banner-text{width: 200px;}
-    .dealer-data{flex-direction: column;}
-    .dealer-data .input{width: 100%; margin-bottom: 10px;}
+    .form_dealer .form-double{flex-direction: column; margin-bottom: 0;}
+    .form-double .input{width: 100%; margin-bottom: 10px;}
     .dealer__form .textarea{margin-top: 0;}
 }
 
