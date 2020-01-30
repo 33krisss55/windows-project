@@ -3,12 +3,12 @@ $('.menu-item').on('click', function() {
     $(this).children('.menu-hidden-list').toggleClass('is-active');
 });
 
-$('.detail').on('click', function() {
-    $(this).next('.catalog__slide-describe-hidden').toggleClass('is-active');
+$('.catalog__btn .button').on('click', function() {
+    $('.catalog-order').toggleClass('is-active');
     $('.overlay').toggleClass('is-active');
 });
 $('.fas.fa-times').on('click', function() {
-    $('.catalog__slide-describe-hidden').removeClass('is-active');
+    $('.catalog-order').removeClass('is-active');
     $('.overlay').removeClass('is-active');
 });
 

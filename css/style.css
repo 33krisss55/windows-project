@@ -20,6 +20,7 @@ table{border-spacing: 0; border-collapse: collapse;}
 
 /*Формы*/
 .form{position: relative; box-sizing: border-box; margin: 40px auto 0; padding: 20px; border: 1px solid #d8d8d8; border-radius: 4px; max-width: 850px;}
+.form_catalog{margin: 20px auto 0; border: none; padding: 0;}
 .form-double{display: flex; justify-content: space-between;}
 .agreement{margin: 15px 0; font-weight: 600;}
 .button{width: 100%; color: #fff; transition: 0.2s ease; background-color: #0074b8; border: 2px solid #0074b8; padding: 10px; border-radius: 4px;}
@@ -99,6 +100,16 @@ table{border-spacing: 0; border-collapse: collapse;}
 
 .catalog__table{width: 100%; margin-top: 20px;}
 .catalog__td{box-sizing: border-box; padding: 8px; vertical-align: middle; border: 1px solid #d8d8d8;}
+
+.catalog-order{display: none; max-width: 800px; z-index: 10; border-radius: 4px; background-color: #fff; padding: 15px; box-sizing: border-box; position: fixed; top: 10%; left: 50%; margin-left: -400px;}
+.catalog-order.is-active{display: block;}
+.catalog-order .fas.fa-times{position: absolute; color: #d8d8d8; cursor: pointer; right: 5px; top: 5px; transition: 0.2s ease;}
+.catalog-order .fas.fa-times:hover{color: #c1bfbf;}
+.catalog-order__border{box-sizing: border-box; padding: 15px; border: 1px solid #0070b8; border-radius: 4px;}
+.catalog-order__describe-item + .catalog-order__describe-item{margin-top: 8px;}
+.catalog-order__describe{padding-top: 20px;}
+.catalog-order__item-bold{font-weight: bold; margin-right: 8px;}
+
 
 .main-video{position: relative; margin: 50px 0;}
 .video{position: relative; display: flex; justify-content: space-between; margin-top: 25px;}
@@ -274,6 +285,7 @@ table{border-spacing: 0; border-collapse: collapse;}
     .footer-list{flex-wrap: wrap;}
     .footer-list-item{width: 100%; margin: 0 0 10px; text-align: center; align-items: center;}
     .footer-list-item_contacts{padding-left: 0;}
+    .catalog-order{width: 100%; left: 0; margin-left: 0;}
 }
 
 @media (max-width: 768px){
