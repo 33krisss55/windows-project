@@ -45,7 +45,7 @@ table{border-spacing: 0; border-collapse: collapse;}
 .header__info-item .mob-link{font-size: 18px; line-height: 21px; font-weight: 500;}
 .header__info-item .mob-link + .mob-link{margin-top: 5px;}
 .header__info-item_logo{flex-direction: row; align-items: center;}
-.header__center-text{ font-size: 14px; line-height: 17px; font-weight: 500; margin-left: 40px;}
+.header__center-text{ font-size: 14px; line-height: 17px; font-weight: 500; margin-left: 85px;}
 .header__info-item .header__shedule{font-size: 12px; line-height: 15px;}
 .header__info-item .header__shedule + .header__shedule{margin-top: 5px;}
 .header__info-item_center{font-size: 21px; line-height: 24px; font-weight: 500;}

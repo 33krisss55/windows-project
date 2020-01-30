@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5c83f2-5fd5-4057-a334-92efd6b54945" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/contacts-others.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts-others.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts-regions.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts-regions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contacts-regions.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -79,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="243" column="41" selection-start-line="243" selection-start-column="41" selection-end-line="243" selection-end-column="41" />
+            <state relative-caret-position="241">
+              <caret line="47" column="91" selection-start-line="47" selection-start-column="91" selection-end-line="47" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -159,17 +158,17 @@
         <option value="$PROJECT_DIR$/delivery.html" />
         <option value="$PROJECT_DIR$/news.html" />
         <option value="$PROJECT_DIR$/contacts-central.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/detailed-new.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/contacts-others.html" />
         <option value="$PROJECT_DIR$/contacts-regions.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="214" />
-    <option name="y" value="51" />
+    <option name="x" value="-206" />
+    <option name="y" value="35" />
     <option name="width" value="1482" />
     <option name="height" value="899" />
   </component>
@@ -248,18 +247,18 @@
       <workItem from="1580103172778" duration="20202000" />
       <workItem from="1580189635654" duration="1632000" />
       <workItem from="1580275768228" duration="22155000" />
-      <workItem from="1580362240120" duration="3081000" />
+      <workItem from="1580362240120" duration="3476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84525000" />
+    <option name="totallyTimeSpent" value="84920000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="214" y="51" width="1482" height="899" extended-state="0" />
+    <frame x="-206" y="35" width="1482" height="899" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20378152" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20378152" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -271,7 +270,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33767927" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33767927" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -452,13 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="243" column="41" selection-start-line="243" selection-start-column="41" selection-end-line="243" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/detailed-new.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -503,6 +495,13 @@
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="47" column="91" selection-start-line="47" selection-start-column="91" selection-end-line="47" selection-end-column="91" />
         </state>
       </provider>
     </entry>
