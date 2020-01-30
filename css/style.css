@@ -240,6 +240,12 @@ table{border-spacing: 0; border-collapse: collapse;}
 .news-describe{margin-top: 15px;}
 .news-text .title{font-size: 18px;}
 
+.detailed-new__text{margin: 10px 0;}
+.detailed-new__image{position: relative; overflow: hidden; width: 100%; margin: 10px 0;}
+.detailed-new__image img{width: 100%; object-fit: cover;}
+.detailed-new__image_double{display: flex; justify-content: space-between; overflow: hidden;}
+.detailed-new__image_double img{width: 49%; height: auto;}
+
 
 @media (max-width: 1200px){
     .menu{flex-wrap: wrap; justify-content: center;}
