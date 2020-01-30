@@ -11,6 +11,10 @@ $('.fas.fa-times').on('click', function() {
     $('.catalog-order').removeClass('is-active');
     $('.overlay').removeClass('is-active');
 });
+$('.overlay').on('click', function() {
+    $('.catalog-order').removeClass('is-active');
+    $('.overlay').removeClass('is-active');
+});
 
 $('.banner').owlCarousel({
     loop:true,
